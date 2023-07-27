@@ -1,0 +1,91 @@
+
+/* added some default stylings */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* added styling to the body */
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* styling movie__info div */
+#movie__info {
+    background: linear-gradient(#121212, #000);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* styling the movie info container */
+#movie__info__container {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+#movie__info__ff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+/* setting dimensions of the image */
+#movie__info__ss__ff img {
+    height: 250px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#movie__info__ss__ss {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+/* styled the description texts */
+#movie__title p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#movie__yor__duration {
+    display: flex;
+    column-gap: 14px;
+    color: #33c5f3;
+}
+
+#movie__rating__data {
+    margin-top: 4px;
+    display: flex;
+    column-gap: 4px;
+}
+
+#movie__rating__data i {
+    color: #f5c518;
+}
+
+/* styled the 2nd part of the movie info div */
+#movie__info__ss {
+    background: #f5c518;
+    display: flex;
+    align-items: center;
+    color: #000;
+    column-gap: 8px;
+    margin-top: 10px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.cBlue {
+    font-weight: 700;
+}
+
